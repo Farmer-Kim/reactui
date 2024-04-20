@@ -1,0 +1,31 @@
+.accordion-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin: 0 32px 0 8px;
+}
+
+.accordion-button {
+    top: 8px;
+    right: 8px;
+    font-size: 14px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.accordion-contents-wrapper {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+.accordion-contents {
+    padding: 4px 8px;
+}
